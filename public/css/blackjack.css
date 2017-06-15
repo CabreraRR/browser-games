@@ -1,0 +1,50 @@
+body {
+	height: 10vh;
+}
+
+.full {
+	height: 100vh;
+}
+
+title {
+	align-content: center;
+}
+
+.bank {
+	background: darkgrey;
+}
+
+.felt {
+	background: darkgreen;
+}
+
+.flex-container {
+	justify-content: center;
+	list-style: none;
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	padding-left: 50px
+}
+
+.card {
+	height: 225px;
+	width: 150px;
+	background: black;
+	border: 10px solid white;
+	border-radius: 15px;
+	margin: 20px;
+}
+
+.cash {
+	font-size: 100px;
+}
+
+.button-container {
+	padding-left: 50px;
+}
+
+.btn {
+	height: 40px;
+	width: 100px;
+}

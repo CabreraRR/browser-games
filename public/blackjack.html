@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen" />
+
+	<link rel="stylesheet" href="css/blackjack.css" />
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="js/blackjack.js"></script>
+</head>
+
+
+<body>
+	<div class="container-fluid h-100">
+		<div class="row">
+			<div class="col-sm-2 full bank">
+				<div class="text-center">
+					<h1>BANK</h1>
+				</div>
+			</div>
+			<div class="col-sm-10 full felt">
+				<div class="text-center">
+					<h1>BLACK JACK</h1>
+				</div>
+				<div class="flex-container">
+
+					<div class="card"></div>
+					<div class="card"></div>
+
+				</div>
+				<div class="text-center">
+					<p class="cash" id="cash">$$$$</p>
+				</div>
+				<div class="flex-container">
+					<div class="card"></div>
+					<div class="card"></div>
+				</div>
+				<div class="row button-container">
+					<button class="btn btn-default" id="hit">HIT</button>
+					<button class="btn btn-default" id="stay">STAY</button>
+					<button class="btn btn-default" id="fold">FOLD</button>
+					<button class="btn btn-default" id="split">SPLIT</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
